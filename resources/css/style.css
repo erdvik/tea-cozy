@@ -1,10 +1,10 @@
-/*Browser Reset */
+/* Browser Reset */
 * {
     margin: 0;
     padding: 0;
   }
 
-/*Global Styles*/
+/* Global Styles */
 html  {
     font-family: "Benne","Helvetica", Arial, sans-serif;
     font-size: 22px;
@@ -58,7 +58,7 @@ nav a:hover {
 /* Mission Statemen Styles */
 
 #mission {
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
     display: flex;
     position: relative;
     top: 70px;
@@ -71,9 +71,61 @@ nav a:hover {
     margin: auto;
 }
 
-.goals {
-    background-color: black;
+/* .mission-statement {
     display: flex;
-    justify-content: center;
-    
+    flex-shrink: 2;
+} */
+
+.mission-statement h2{
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
+
+.mission-statement h4{
+    background-color: black;
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/* Featured Teas Section Styles */
+
+#featured {
+    width: 1000px;
+    margin: 150px auto 90px auto;
+    position: relative;
+}
+
+.featured-statement {
+    text-align: center;
+    margin: 20px;
+}
+
+.flexbox-center {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    display: block;
+}
+
+.img-container img{
+    height: 200px;
+    width: 300px;
+    flex-basis: auto;
+    margin: 10px;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom:20px;
+    font-weight: bold;
+}
+
+/* Locations Section Styles */
+
