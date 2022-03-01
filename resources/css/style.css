@@ -79,14 +79,12 @@ nav a:hover {
 .mission-statement h2{
     background-color: black;
     width: 1200px;
-    text-align: center;
     padding: 20px 0 20px 0;
 }
 
 .mission-statement h4{
     background-color: black;
     width: 1200px;
-    text-align: center;
     padding-bottom: 20px;
 }
 
@@ -99,7 +97,6 @@ nav a:hover {
 }
 
 .featured-statement {
-    text-align: center;
     margin: 20px;
 }
 
@@ -122,7 +119,6 @@ nav a:hover {
 }
 
 figcaption {
-    text-align: center;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -144,7 +140,6 @@ figcaption {
 }
 
 .locations-statement {
-    text-align: center;
     width: 100%;
 }
 
@@ -154,7 +149,6 @@ figcaption {
     margin: 30px 40px;
     background-color: black;
     opacity: 1;
-    text-align: center;
 }
 
 .address-container h3 {
@@ -163,5 +157,27 @@ figcaption {
 
 .address-container h4 {
     margin-top: 25px;
-    font-weight: 400
+    font-weight: 400;
+}
+
+/* Contact Section Styles */
+
+#contact {
+    height: 200px;
+    width: auto;
+}
+
+.contact-container h2 {
+    margin-top: 30px;
+}
+
+.contact-container h5, .contact-container h4 {
+    margin: 35px;
+}
+
+/* Footer Styles */
+
+footer h5{
+    margin: 20px;
+    float: left;
 }
